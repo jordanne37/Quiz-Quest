@@ -1,11 +1,10 @@
-# BUY IT HERE
+# QUIZ QUEST
   ![License badge](https://img.shields.io/badge/License-MIT_License-blue.svg)
 
 ## Description
-THIS PROJECT IS THE BACK END CODE FOR AN ECOMMERCE SITE THAT I CALLED BUY IT HERE! IT USES EXPRESS.JS, SEQUILIZE, MYSQL, NODE.JS, AND INSOMNIA TO RUN CONNECTIONS.
-
+A FUN QUIZ THAT TESTS YOUR KNOWLEDGE OF CODING!
 ## Table of Contents:
-- [BUY IT HERE](#buy-it-here)
+- [QUIZ QUEST](#quiz-quest)
   - [Description](#description)
   - [Table of Contents:](#table-of-contents)
   - [Installation](#installation)
@@ -19,12 +18,9 @@ THIS PROJECT IS THE BACK END CODE FOR AN ECOMMERCE SITE THAT I CALLED BUY IT HER
 N/A
 
 ## Usage
-USED TO HOW BACK-END FUNCTIONALITY WORKS.
+USED TO QUIZ SELF ON CODING AS WELL AS USE MY KNOWLEDGE OF JAVA SCRIPT
 
-![screenshot](/BUY-IT-HERE.jpg)
-
-https://drive.google.com/file/d/1v1sO13_MfUOhoY3tPIGKaeKh0tXZFdnx/view
-
+![screenshot]()
 
 ## License
 MIT License
