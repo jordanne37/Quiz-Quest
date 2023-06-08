@@ -215,7 +215,6 @@ newInitials += ", " + retrieveInitials;
       
 //Save Initials to local storage to be used in view Highscore
 localStorage.setItem("initials", newInitials);})
-
 highScoreBtnEl.addEventListener("click", function() {
 scoreEl.style.display = "block";
 var retrieveInitials1 = localStorage.getItem("initials");
@@ -223,7 +222,6 @@ displayInitEl.textContent = retrieveInitials1;
   });
     
       
-//Refreshes the page and carries you back to start
 mainEl.addEventListener("click", function() {
     location.reload();
 })  
