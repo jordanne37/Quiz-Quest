@@ -19,8 +19,28 @@ var displayScoreEl = document.getElementById("display-score");
 var highScoreLink = document.getElementById("view-scores-link");
 var mainEl = document.getElementById("main-screen");
 
+var time = 61; 
+var answerSet = [];
+var correct = 0;
+var incorrect = 0; //If incorrect > 0 then it will minus 10 seconds 
+var questionNumber = 1;
+var timeCondition = false;
 
 
+// answers
+var answer1 = ["commas", "curly brackets", "quotes", "parenthesis"];
+var answer2 = ["strings", "booleans", "alerts", "numbers"];
+var answer3 = ["quotes;", "curly brackets", "nothing", "parenthesis"];
+var answer4 = ["number and strings", "none of the above", "booleans", "all of the above"];
+var answer5 = ["javascript", "Domain Object Methods", "console.log", "for loops"];
+
+function displayQuestion() {
+    answerEl.appendChild(li1);
+    answerEl.appendChild(li2);
+    answerEl.appendChild(li3);
+    answerEl.appendChild(li4);
+  }
+  
 
 
 
@@ -59,13 +79,5 @@ function generateQuestion() {
       displayQuestion();
   
   
-    }
-  
-    if (questionNumber === 6) {
-      questionEl.textContent = "6. What div is this statement accessing document.getElementByID('start-btn');? _______"
-      answerSet = answer6.map(value => ({ value, sort: Math.random() })).sort((a, b) => a.sort - b.sort).map(({ value }) => value);
-      displayQuestion();
-  
-    }
-  }
-  
+    }};
+    
